@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_bar_size">100dp</dimen>
+    <dimen name="margin_step_item">16dp</dimen>
+    <dimen name="exoplayer_height">400dp</dimen>
+    <dimen name="recipe_item_height">200dp</dimen>
+    <dimen name="ingredient_item_side_margin">16dp</dimen>
+    <dimen name="ingredient_item_top_margin">10dp</dimen>
+    <dimen name="ingredient_bottom_sheet_side_margin">46dp</dimen>
+    <dimen name="ingredient_bottom_sheet_top_margin">20dp</dimen>
+    <dimen name="activity_main_padding">16dp</dimen>
+    <dimen name="activity_main_margin">8dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="ingredient_bottom_sheet_rv_margin">30dp</dimen>
+</resources>

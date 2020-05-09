@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/recipe_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recipe_item_height"
+        android:contentDescription="@string/recipe_image"
+        android:src="@drawable/ic_recipe" />
+
+    <TextView
+        android:id="@+id/recipe_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:text="@string/nutella_pie"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+</androidx.cardview.widget.CardView>

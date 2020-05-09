@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BakingTime</string>
+    <string name="an_error_occured_please_try_again">An error occured. Please try again.</string>
+    <string name="retry">Retry</string>
+    <string name="step_1_example_step">Step 1: Example Step</string>
+    <string name="_2_whisk_the_graham_cracker_crumbs_50_grams_1_4_cup_of_sugar_and_1_2_teaspoon_of_salt_together_in_a_medium_bowl_pour_the_melted_butter_and_1_teaspoon_of_vanilla_into_the_dry_ingredients_and_stir_together_until_evenly_mixed">2. Whisk the graham cracker crumbs, 50 grams (1/4 cup) of sugar, and 1/2 teaspoon of salt together in a medium bowl. Pour the melted butter and 1 teaspoon of vanilla into the dry ingredients and stir together until evenly mixed.</string>
+    <string name="nutella_pie">Nutella Pie</string>
+    <string name="vanilla">vanilla</string>
+    <string name="_5_tblsp">5 TBLSP</string>
+    <string name="add_to_widget">Add To Widget</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    <string name="recipe_complete">Yay! Recipe Completed</string>
+    <string name="cannot_connect_to_internet">Cannot Connect To Internet   Only Limited Functionality</string>
+    <string name="no_net_connection">No Internet Connection</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="name_of_recipe">Name Of Recipe</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="example_list_for_widget">1) 2TBLSP Vanilla  \n2) 400GM Butter \n3) 300ML Milk \n4) 2 Chocolates</string>
+    <string name="ingredients_menu">INGREDIENTS</string>
+    <string name="recipe_step_image">Recipe Step Image</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="finish_btn">Finish</string>
+</resources>

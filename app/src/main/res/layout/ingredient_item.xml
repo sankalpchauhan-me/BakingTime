@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/ingredient_item_side_margin"
+    android:layout_marginTop="@dimen/ingredient_item_top_margin"
+    android:layout_marginRight="@dimen/ingredient_item_side_margin"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/quantity_measure"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/_5_tblsp"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ingredient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/quantity_measure"
+            android:text="@string/vanilla"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@id/ingredient"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark" />
+
+    </RelativeLayout>
+
+</LinearLayout>

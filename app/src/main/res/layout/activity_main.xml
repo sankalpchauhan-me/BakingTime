@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recipie_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="@dimen/progress_bar_size"
+        android:layout_height="@dimen/progress_bar_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/recipie_rv"
+        app:layout_constraintEnd_toEndOf="@+id/recipie_rv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recipie_rv" />
+
+    <TextView
+        android:id="@+id/tv_error_message_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/activity_main_margin"
+        android:layout_marginLeft="@dimen/activity_main_margin"
+        android:layout_marginTop="@dimen/activity_main_margin"
+        android:padding="@dimen/activity_main_padding"
+        android:text="@string/an_error_occured_please_try_again"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/recipie_rv"
+        app:layout_constraintEnd_toEndOf="@+id/recipie_rv"
+        app:layout_constraintStart_toStartOf="@+id/recipie_rv"
+        app:layout_constraintTop_toTopOf="@+id/recipie_rv" />
+
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_error_message_display"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/activity_main_margin"
+        android:layout_marginLeft="@dimen/activity_main_margin"
+        android:layout_marginTop="@dimen/activity_main_margin"
+        android:layout_marginEnd="@dimen/activity_main_margin"
+        android:layout_marginRight="@dimen/activity_main_margin"
+        android:layout_marginBottom="@dimen/activity_main_margin"
+        android:text="@string/retry"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/recipie_rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_circular" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
